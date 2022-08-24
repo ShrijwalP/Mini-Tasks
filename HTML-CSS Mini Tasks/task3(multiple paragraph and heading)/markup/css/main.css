@@ -1,0 +1,91 @@
+body {
+	color: #313747;
+	font: 400 14px/1.76 'Roboto', sans-serif;
+	letter-spacing: 0.032em;
+	margin: 0;
+}
+#wrapper {
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+a {
+	color: #313747;
+}
+a:hover {
+	color: #7a7c89;
+}
+.container {
+	margin: 0 auto;
+	width: 648px;
+}
+.top h1 {
+	color: #313649;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.5em;
+	letter-spacing: -0.002em;
+	margin: 0;
+	padding: 38px 0 8px;
+}
+.top p {
+	margin: 0 0 45px;
+}
+mark {
+	background: #fcf8d3;
+	color: #000;
+}
+.middle h2 {
+	color: #313649;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 1.1em;
+	letter-spacing: 0.039em;
+	margin: 0 0 15px;
+}
+ol,
+ul {
+	font-size: 14px;
+	list-style: none;
+	line-height: 2.47em;
+	letter-spacing: 0.038em;
+	padding: 0;
+}
+ol {
+	counter-reset: list-counter;
+	margin: 0 0 34px 12px;
+}
+ol li:before {
+	counter-increment: list-counter;
+	content: counter(list-counter)'.';
+	color: #313649;
+	font-weight: bold;
+	margin: 0 9px;
+}
+ul {
+	margin: 0 0 34px 5px;
+}
+ul li:before {
+	background: #313649;
+	content: '';
+	border-radius: 50%;
+	display: inline-block;
+	height: 5px;
+	margin: 0 17px;
+	width: 5px;
+}
+.bottom {
+	background: #e1f1fe;
+	letter-spacing: 0.035em;
+	margin: 0;
+	padding: 10px 9px 14px 9px;
+}
+.bottom h2 {
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0.043em;
+	margin: 0 0 8px;
+}
+.bottom p {
+	margin: 0;
+}

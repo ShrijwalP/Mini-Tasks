@@ -1,0 +1,85 @@
+html {
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+	background: #333;
+	font: 700 15px/1 'Open Sans', sans-serif;
+	letter-spacing: 0.01em;
+	margin: 0;
+	min-width: 580px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a {
+	text-decoration: none;
+	color: #343434;
+	transition: color 0.4s ease-in-out;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+.container {
+	padding: 33px 0;
+	margin: 0 auto;
+	max-width: 475px;
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pagination ul {
+	background: #fff;
+	display: flex;
+	padding: 8px 20px;
+	border-radius: 30px;
+}
+.pagination ul li {
+	padding: 0 4px;
+}
+.pagination ul li:first-child {
+	padding: 0 15px;
+}
+.pagination ul li:last-child {
+	padding: 0 6px 0 15px;
+}
+.pagination li {
+	border-radius: 50%;
+}
+.pagination ul li:hover a {
+	color: #aeaaff;
+}
+li a,
+li span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 42px;
+	height: 42px;
+}
+.pagination ul li.active {
+	background: #4037ff;
+	color: #fff;
+	padding: 0;
+}
+.prev,
+.next {
+	width: 100%;
+}
+.pagination ul li .prev:hover,
+.pagination ul li .next:hover {
+	color: #aeaaff;
+}

@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	color: #454545;
+	font: 400 14px/1.58 'Roboto', sans-serif;
+	letter-spacing: 0.029em;
+}
+#wrapper {
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}   
+a {
+	color: #dd0101;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.container {
+	background: #c4c4c4 url("../images/bg01.png") repeat;
+	margin: 0 auto;
+	padding: 0 0 27px 0;
+	width: 430px;
+}
+.container h1 {
+	color: #010101;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 26px;
+	font-weight: 500;
+	letter-spacing: 0.006em;
+	line-height: 0.5em;
+	padding: 31px 0 0 0;
+	margin: 0 0 18px 118px;
+	text-transform: uppercase;
+	width: 130px;
+}
+.container h1:after {
+	content: '';
+	display: block;
+	background: #b40c0c;
+	margin: 7px 0 0;
+	height: 2px;
+	width: 100%;
+}
+.meta {
+	font-size: 11px;
+	letter-spacing: -0.01em;
+	line-height: 1.49em;
+	padding: 25px 17px 0 0;
+	float: right;
+	text-align: right;
+	text-transform: uppercase;
+	width: 160px;
+}
+.contents {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 36px 0 36px;
+}
+.contents img {
+	display: block;
+	margin: 0 34px 0 0;
+	height: 51px;
+	width: 49px;
+}
+.contents p {
+	margin: 0;
+}
